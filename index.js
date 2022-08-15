@@ -7,6 +7,7 @@ function initGame() {
     document.querySelector("img").setAttribute("src", randObj.image);
     document.querySelector("button").textContent = 'refresh';
 }
+
 let challengesArray = [
         {
             text: `What's the last lie you told?`, 
